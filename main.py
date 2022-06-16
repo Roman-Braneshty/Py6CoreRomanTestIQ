@@ -6,11 +6,14 @@ class Roman:
     def name(self):
         return f'Hi {self.name}:{self.age}'
 
+    def print_hi(self):
+        print(f'Hi, {self.name}')
 
-def print_hi(name):
-    print(f'Hi, {name}')
+
+student = Roman('Vlad', 32)
+student.print_hi()
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
